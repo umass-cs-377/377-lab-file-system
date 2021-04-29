@@ -56,7 +56,7 @@ int main() {
 
 Notice the `serialize` function, basically what we are doing here is:
 1. Take the pointer to `student` and convert it to a `const char` pointer.
-2. Write the memory space that contains the student information to file as a `char` array (oy byte
+2. Write the bytes representing the student information to file as a `char` array (oy byte
    array), the length of the array is determined by `sizeof(Student)`.
 
 ## Deserialize
