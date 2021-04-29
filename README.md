@@ -61,8 +61,8 @@ Notice the `serialize` function, basically what we are doing here is:
 
 ## Deserialize
 Similarly in `deserialize.cpp`, we can restore the student information from the binary file. We
-first create two empty `Student` structs. Then we read `sizeof(Student)` bytes at a time and copy
-those bytes to the memory space of the `Student` structs. The information printed out should match
+first create two empty `Student` structs. Then we read `sizeof(Student)` bytes into the bytes 
+that represent the `Student` structs in memory. The information printed out should match
 what we defined in `serialize.cpp`.
 
 ```c++
