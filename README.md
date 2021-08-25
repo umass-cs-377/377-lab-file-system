@@ -1,4 +1,4 @@
-# COMPSCI 377 LAB #8: Serialization/Deserialization
+# COMPSCI 377 LAB: Serialization/Deserialization
 
 ## Purpose
 
